@@ -1,0 +1,19 @@
+# Large research data are not tracked in Git, but can be downloaded from the original source.
+data/raw/
+data/full/
+data/processed/
+
+# Local downloads and temporary files
+downloads/
+tmp/
+*.part
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/

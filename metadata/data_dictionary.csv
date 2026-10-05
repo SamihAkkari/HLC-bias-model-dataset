@@ -1,0 +1,29 @@
+component,column_pattern,description,type,unit
+raw_simulation,Laine de verre¤TTP_TMateriau_Cond,Glass wool material thermal conductivity,numeric,W/mK
+raw_simulation,*¤TTP_TOuverture_Uw,Window U-value by orientation,numeric,W/m²K
+raw_simulation,*¤TTP_TOuverture_Sw,Window solar factor by orientation,numeric,%
+raw_simulation,*¤TTP_TOuverture_Largeur,Window width by orientation,numeric,m
+raw_simulation,*¤TTP_TOuverture_Hauteur,Window height by orientation,numeric,m
+raw_simulation,Zone 1¤TTP_TinfiltrationZone,Zone infiltration parameter,numeric,vol/hr
+raw_simulation,¤TMeteo,Weather or meteorological input identifier used for data generation and has nothing to do with the results,numeric,-
+raw_simulation,Text-average,External average temperature during the test period (12 hours),numeric,°C
+raw_simulation,Bias,Steady state method (STM) bias in estimating the HLC of a certain building in a certain day,numeric,ratio
+raw_simulation,Bias_Absolute,Steady state method (STM) absolute bias in estimating the HLC of a certain building in a certain day,numeric,ratio
+raw_simulation,HLC,Heat loss coefficient estimation of the STM,numeric,W/K
+raw_simulation,Text-1 ... Text-128,External temperature records for the indicated time lags,numeric,°C
+raw_simulation,GHR_mean,Mean global horizontal radiation during the test period (12 hours),numeric,W/m²
+raw_simulation,GHR-sum-1 ... GHR-sum-128,Aggregated global horizontal radiation before the test period,numeric,W/m²
+raw_simulation,day_index,Test day index (1 corresponds to the first of November and 119 to the end of February),integer,-
+raw_simulation,Date,Test date spanning November to February,Date,-
+raw_simulation,Climate_zone,Climate zones (Nancy; Nice; Rennes; LaRochelle; Carpentras; Macon; Agen; Trappes),category,-
+model_results,HLC_true,Reference or true HLC value,numeric,W/K
+model_results,HLC_rf,Random forest HLC prediction,numeric,W/K
+model_results,HLC_mlp,MLP HLC prediction,numeric,W/K
+model_results,Bias_rf,Random forest prediction bias,numeric,ratio
+model_results,Abs_Bias_rf,Absolute random forest prediction bias,numeric,ratio
+model_results,Bias_mlp,MLP prediction bias,numeric,ratio
+model_results,Abs_Bias_mlp,Absolute MLP prediction bias,numeric,ratio
+model_results,Avg_Text_24,External average temperature over 24 hours of the testing day,numeric,°C
+model_results,Avg_Text_test,External average temperature during the test period (12 hours),numeric,°C
+model_results,STM_Bias,STM bias,numeric,ratio
+model_results,STM_Abs_Bias,Absolute STM bias,numeric,ratio
