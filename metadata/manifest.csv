@@ -1,17 +1,17 @@
-configuration_id,configuration_name,building_system,insulation_configuration,component,file_name,relative_path,size_bytes,size_gb,column_count,sha256
-CB-EWI,Concrete blocks EWI,Concrete blocks,EWI,raw_simulation,Data.txt,CB-EWI\Data.txt,16359369278,15.236,284,4c85b40b630ce08446e5d42980454096fa4055719f645edb04f3be8bef5df2c9
-CB-EWI,Concrete blocks EWI,Concrete blocks,EWI,model_results,model_results.csv,CB-EWI\model_results.csv,42001557,0.039,11,f4ee632f4c71d63ca3028185862798227fe175ce73b82452c6c9f9c49d0cc7dc
-CB-IWI,Concrete blocks IWI,Concrete blocks,IWI,raw_simulation,Data.txt,CB-IWI\Data.txt,16440227709,15.311,284,74a3d2ccfe2b8de1d577990197e76e1f9a2317015955c142fa28c4ad5a938e4a
-CB-IWI,Concrete blocks IWI,Concrete blocks,IWI,model_results,model_results.csv,CB-IWI\model_results.csv,42001583,0.039,11,1be45752ab4c7249bfe65c0a5f6d8b6c470fdf9dd248fd01bc992e61d4508a21
-CB-NINS,Concrete blocks NINS,Concrete blocks,NINS,raw_simulation,Data.txt,CB-NINS\Data.txt,16438563495,15.31,284,5a8a93aa05e950e0b2176431a1b85253a9c595a521b4701fe4ef0a8668d865a5
-CB-NINS,Concrete blocks NINS,Concrete blocks,NINS,model_results,model_results.csv,CB-NINS\model_results.csv,41534755,0.039,11,624e12b39aae4b0bf5b7f3ba5ef24a5bc209c8e66eb313cc536af5662e3cf539
-HC-EWI,Heavy concrete EWI,Heavy concrete,EWI,raw_simulation,Data.txt,HC-EWI\Data.txt,16440861128,15.312,284,1138fa926a9861a5ca8e372916d2be8c78d483f582080b457d5d1311a5bea1aa
-HC-EWI,Heavy concrete EWI,Heavy concrete,EWI,model_results,model_results.csv,HC-EWI\model_results.csv,41983012,0.039,11,16e66c49306111d71e2629d304e49cd1a3d00cf6880483cad7d325e9a8ee3f53
-HC-IWI,Heavy concrete IWI,Heavy concrete,IWI,raw_simulation,Data.txt,HC-IWI\Data.txt,16439614093,15.311,284,6e2d7325178e200fc1a24b0001b30505a7f8d0ddfb2ac18a59c0cd4ebafab629
-HC-IWI,Heavy concrete IWI,Heavy concrete,IWI,model_results,model_results.csv,HC-IWI\model_results.csv,41986588,0.039,11,fede7f79b3e0c1a4519bf3a23ddad1f41b3ec82d12c2059bc39000dc1a255bba
-HC-NINS,Heavy concrete NINS,Heavy concrete,NINS,raw_simulation,Data.txt,HC-NINS\Data.txt,15932590850,14.838,284,acebbbedf019cf6afc71020b965592d90f5a7a0366debf8dfafe0d6bdd685db6
-HC-NINS,Heavy concrete NINS,Heavy concrete,NINS,model_results,model_results.csv,HC-NINS\model_results.csv,41576514,0.039,11,206185524acb8bf8fe9bced5abb50bc9f8ecc5bbdfdafe7cd564016932089cd0
-LW-EWI,Lightweight EWI,Lightweight,EWI,raw_simulation,Data.txt,LW-EWI\Data.txt,16441138817,15.312,284,3b30f3b03609ea4c78fd55a9202f574668b2f2a9b74f09b85e22b594b9fc034f
-LW-EWI,Lightweight EWI,Lightweight,EWI,model_results,model_results.csv,LW-EWI\model_results.csv,41987382,0.039,11,e25dcca2839dc01a85f713a0201d3af3a80c81b21e681b4f892b3031ed33fa71
-LW-IWI,Lightweight IWI,Lightweight,IWI,raw_simulation,Data.txt,LW-IWI\Data.txt,16440852352,15.312,284,36f96794f8b90cf0a94b6c3755cf129836472d51c607f8598ebe379b551863f8
-LW-IWI,Lightweight IWI,Lightweight,IWI,model_results,model_results.csv,LW-IWI\model_results.csv,42002493,0.039,11,201c5ca9fb54ac79ea4c4984a98e3309c7f4180c6ce551be12850cb3daae9987
+configuration_id,configuration_name,building_type,insulation_configuration,component,file_name,relative_path,size_bytes,size_gb,row_count,column_count,sha256
+CB-EWI,Concrete blocks EWI,Concrete blocks,EWI,raw_simulation,Data.parquet,CB-EWI\Data.parquet,3743871743,3.487,4760000,284,7efec4bd04082747844430958c34c4928503f84d5f8d5776ba6c174c837f6067
+CB-EWI,Concrete blocks EWI,Concrete blocks,EWI,model_results,model_results.csv,CB-EWI\model_results.csv,42001557,0.039,200000,11,f4ee632f4c71d63ca3028185862798227fe175ce73b82452c6c9f9c49d0cc7dc
+CB-IWI,Concrete blocks IWI,Concrete blocks,IWI,raw_simulation,Data.parquet,CB-IWI\Data.parquet,3788479362,3.528,4760000,284,fdce2f74eadac21464f1c40d200a159106dc8605742e9c14dfe5678c56340cd1
+CB-IWI,Concrete blocks IWI,Concrete blocks,IWI,model_results,model_results.csv,CB-IWI\model_results.csv,42001583,0.039,200000,11,1be45752ab4c7249bfe65c0a5f6d8b6c470fdf9dd248fd01bc992e61d4508a21
+CB-NINS,Concrete blocks NINS,Concrete blocks,NINS,raw_simulation,Data.parquet,CB-NINS\Data.parquet,3782643964,3.523,4760000,284,378d51c292681633c1bcb9369f3601a1c498ed62bc2903e58f1f8e366f2b6e4b
+CB-NINS,Concrete blocks NINS,Concrete blocks,NINS,model_results,model_results.csv,CB-NINS\model_results.csv,41534755,0.039,200000,11,624e12b39aae4b0bf5b7f3ba5ef24a5bc209c8e66eb313cc536af5662e3cf539
+HC-EWI,Heavy concrete EWI,Heavy concrete,EWI,raw_simulation,Data.parquet,HC-EWI\Data.parquet,3783856157,3.524,4760000,284,034edf2f27856a3aaf2972e1d092b2e7060698b4b9b39dfdbe8746188dc42e2f
+HC-EWI,Heavy concrete EWI,Heavy concrete,EWI,model_results,model_results.csv,HC-EWI\model_results.csv,41983012,0.039,200000,11,16e66c49306111d71e2629d304e49cd1a3d00cf6880483cad7d325e9a8ee3f53
+HC-IWI,Heavy concrete IWI,Heavy concrete,IWI,raw_simulation,Data.parquet,HC-IWI\Data.parquet,3784374290,3.524,4760000,284,416df2a24900ff0474900d18ea903af7a9f9b5542f06636cad6664ead68555ac
+HC-IWI,Heavy concrete IWI,Heavy concrete,IWI,model_results,model_results.csv,HC-IWI\model_results.csv,41986588,0.039,200000,11,fede7f79b3e0c1a4519bf3a23ddad1f41b3ec82d12c2059bc39000dc1a255bba
+HC-NINS,Heavy concrete NINS,Heavy concrete,NINS,raw_simulation,Data.parquet,HC-NINS\Data.parquet,3637291741,3.387,4760000,284,865ae7e5c65c1fc1f685d459d184666855e542e596789e577460cc48dc33497c
+HC-NINS,Heavy concrete NINS,Heavy concrete,NINS,model_results,model_results.csv,HC-NINS\model_results.csv,41576514,0.039,200000,11,206185524acb8bf8fe9bced5abb50bc9f8ecc5bbdfdafe7cd564016932089cd0
+LW-EWI,Lightweight EWI,Lightweight,EWI,raw_simulation,Data.parquet,LW-EWI\Data.parquet,3785704329,3.526,4760000,284,9b929a116aff0fb9815b7f34f57a0137c3f4ca3deedbfa4169d854eb4d74173b
+LW-EWI,Lightweight EWI,Lightweight,EWI,model_results,model_results.csv,LW-EWI\model_results.csv,41987382,0.039,200000,11,e25dcca2839dc01a85f713a0201d3af3a80c81b21e681b4f892b3031ed33fa71
+LW-IWI,Lightweight IWI,Lightweight,IWI,raw_simulation,Data.parquet,LW-IWI\Data.parquet,3784081848,3.524,4760000,284,d2e8b139f9d8da7aad2666feda710168f31332b47d2b28d4387ba675e73039e9
+LW-IWI,Lightweight IWI,Lightweight,IWI,model_results,model_results.csv,LW-IWI\model_results.csv,42002493,0.039,200000,11,201c5ca9fb54ac79ea4c4984a98e3309c7f4180c6ce551be12850cb3daae9987

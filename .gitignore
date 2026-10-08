@@ -17,3 +17,6 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# scripts
+scripts/repo_prep_scripts/
